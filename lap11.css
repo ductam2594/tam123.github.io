@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav {
+    border-top: 1px solid #fff;
+}
+
+#nav li {
+    display: inline-block;
+    float: right;
+    
+}
+
+#nav li a {
+    text-decoration: none;
+    color: red;
+    line-height: 46px;
+    padding: 0 8px;
+}
+
+#nav .nav1 {
+    float: left;
+}
+
+#content {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+#content .text-header {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+#content .text-drc {
+    width: 150px;
+    padding: 8px 10px 8px 6px ;
+    color: blue;
+    border: 1px solid #ccc;
+}
+
+#content .text-item {
+    
+}
+
+.img {
+    margin-left: 170px;
+    width: 1190px;
+    height: 350px;
+}
+
+#content .text-item .img-item {
+    width: 290px;
+    height: 150px;
+}
+
+#content .text-item {
+    
+}
+
+.content-item {
+    border: 1px solid #ccc;
+    width: 290px;
+    display: inline-block;
+    float: right;
+    margin-left: 16px;
+    margin-top: 36px;
+}
+
+.content-item .product {
+    margin-left: 8px;
+    color: blue;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.content-item .cost {
+    font-weight: 550;
+    margin-left: 8px;
+    margin-top: 8px;
+    
+}
+
+.content-item .dcr {
+    text-align: justify;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 36px;
+    
+}
+
+.content-item .Evaluate {
+    padding-left: 8px;
+    border-top: 1px solid #ccc;
+    background-color: #ccc;
+    height: 30px;
+    margin-top: 8px;
+}
+
+#footer {
+    background-color: #000;
+    height: 80px;
+    position: relative;
+    margin-top: 36px;   
+    text-align: center;
+}
+
+#footer .text-footer {
+    color: #fff;
+}
+
+#footer .text-footer a {
+    text-decoration: none;
+    color: blue;
+    line-height: 80px;
+}
